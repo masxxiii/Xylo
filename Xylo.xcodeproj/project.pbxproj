@@ -16,6 +16,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A54778FE25D17D6B0056C819 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		A54778FF25D17D6B0056C819 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		A547790025D17D6B0056C819 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		A547790125D17D6B0056C819 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		A547790225D17D6B0056C819 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		A547790325D17D6B0056C819 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		A547790425D17D6B0056C819 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 		A5EAEB0425CD60D200006CBD /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EAEB0725CD60D200006CBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5EAEB0925CD60D200006CBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +44,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A54778FD25D17D6B0056C819 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A54778FE25D17D6B0056C819 /* A.wav */,
+				A54778FF25D17D6B0056C819 /* C.wav */,
+				A547790425D17D6B0056C819 /* D.wav */,
+				A547790325D17D6B0056C819 /* E.wav */,
+				A547790125D17D6B0056C819 /* F.wav */,
+				A547790225D17D6B0056C819 /* G.wav */,
+				A547790025D17D6B0056C819 /* B.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		A5EAEAFB25CD60D200006CBD = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +84,7 @@
 				A5EAEB1025CD60D300006CBD /* Assets.xcassets */,
 				A5EAEB1225CD60D300006CBD /* LaunchScreen.storyboard */,
 				A5EAEB1525CD60D300006CBD /* Info.plist */,
+				A54778FD25D17D6B0056C819 /* Sounds */,
 			);
 			path = Xylophone;
 			sourceTree = "<group>";
@@ -287,15 +309,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZTSS56N88;
 				INFOPLIST_FILE = Xylophone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.masstudios.Xylophone.Xylophone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masstudios.Xylo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,15 +328,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZTSS56N88;
 				INFOPLIST_FILE = Xylophone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.masstudios.Xylophone.Xylophone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masstudios.Xylo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
