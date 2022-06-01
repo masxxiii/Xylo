@@ -4,7 +4,7 @@
      alt="Xylo logo by MZ" width="120" height="120">
 
 Xylo is a minimalist xylophone app built for iphone and ipad in swift. An exciting
-app developed for everyone, Especially children!
+app developed for everyone, Especially children! 👦 👧 
 
 * **Play** different keynotes.
 * **Works** both in portrait and landscape mode.
