@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         guard let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
         else
         {
-            print("Error getting url!")
+            print("Error getting sound url!")
             return
             
         }
